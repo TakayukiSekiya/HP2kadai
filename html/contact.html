@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Cafe ○○○○</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="確認テストのページです">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css"></link>
+    <link rel="stylesheet" type="text/css" href="../css/common.css"></link>
+    <link rel="stylesheet" type="text/css" href="../css/contact.css"></link>
+  </head>
+
+  <body>
+    <header>
+      <div class="header_all">
+        <nav class="nav_bar">
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="concept.html">CONCEPT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="drawer"></p>
+    </header>
+
+    <main>
+      <section class="shop section">
+        <div class="shop_inner">
+          <div class="shop_ttl">
+            <h1>CONTACT<br><small>ご予約・お問い合わせ</small></h1>
+          </div>
+
+          <div class="access_wrap">
+            <div class="access_ttl">
+              <h2>ACCESS MAP</h2>
+            </div>
+
+            <div class="access_map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6481.336082173277!2d139.74404476977537!3d35.685175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c0d02d8064d%3A0xd11a5f0b379e6db7!2z55qH5bGF!5e0!3m2!1sja!2sjp!4v1659698197400!5m2!1sja!2sjp"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+            <div class="access_list">
+              <div class="txt_item1">
+                <h3>営業時間</h3>
+                <p class="txt1">〇曜日～〇曜日</p>
+                <p class="txt2">〇：〇〇～〇〇：〇〇</p>
+                <p class="txt3">土曜日、日曜日、祝日</p>
+                <p class="txt4">〇：〇〇～〇〇：〇〇</p>
+              </div>
+              <div class="txt_item2">
+                <h4>定休日</h4>
+                <p class="txt5">〇曜日</p>
+                <p class="txt6">夏季休暇、冬季休暇、臨時休暇などはInstagramにてお知らせ致します。</p>
+              </div> 
+              <div class="txt_item3">
+                <h5>住所・電話番号</h5>
+                <p class="txt7">〒〇〇〇-〇〇〇〇<br>〇〇〇〇〇〇〇〇〇〇〇〇 〇-〇-〇<br>TEL〇〇〇-〇〇〇-〇〇〇〇</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact_link">
+        <div class="contact_inner">
+
+          <div class="contact_wrap">
+            <div class="contact_item">
+              <p>ご予約・お問い合わせはこちら</p>
+            </div>
+            <form action="#" class="contact_form" id="form">
+              <div class="contact_box">
+                <label for="name" class="contact_form_ttl">お問い合わせ項目</label>
+                <select name="subject" class="contact_form_box1" required="required">
+                  <optgroup value>
+                    <option class="select_with" value="プルダウンメニューで問い合わせ内容を選択" hidden>問い合わせ内容を選択</option>
+                    <option class="select_with" value="ご予約・空席状況について">ご予約・空席状況について</option>
+                    <option class="select_with" value="サービス・メニューについて">サービス・メニューについて</option>
+                    <option class="select_with" value="その他">その他</option>
+                  </optgroup>
+                </select>
+              </div>
+
+              <div class="contact_box">
+                <label for="name1" class="contact_form_ttl">お名前</label>
+                <input type="text" class="contact_form_box2" name="" required="required" placeholder="お名前をご入力ください" id="name1">
+              </div>
+
+              <div class="contact_box">
+                <label for="email" class="contact_form_ttl">メールアドレス</label>
+                <input type="email" class="contact_form_box2" name="" required="required" placeholder="例）example@example.com" id="email">
+              </div>
+
+              <div class="contact_box">
+                <label for="tel" class="contact_form_ttl">電話番号</label>
+                <input type="tel" class="contact_form_box2" name="" required="required" placeholder="例）090-1234-5678"
+                  id="tel">
+              </div>
+
+              <div class="contact_box _area">
+                <label for="message" class="contact_form_ttl">お問い合わせ内容</label>
+                <textarea name="message" class="contact_textarea" id="message" cols="30" rows="10" required="required" placeholder="お問い合わせ内容をご入力ください"></textarea>
+              </div>
+
+              <button type="submit" class="contact_btn">送信</button>
+            </form>
+
+
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+    <footer>
+      <ul class="footer_list">
+        <li class="footer_item"><a href="../index.html">HOME</a></li>
+        <li class="footer_item"><a href="menu.html">MENU</a></li>
+        <li class="footer_item"><a href="concept.html">CONCEPT</a></li>
+        <li class="footer_item"><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <ul class="footer_sns">
+        <li class="sns_icon">
+          <a href="#"><img src="../img/instagram.png" alt="Instagramアイコン"></a>
+        </li>
+      </ul>
+      <small class="footer_txt">© 2022 Cafe ○○○○</small>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+  </body>
+</html>

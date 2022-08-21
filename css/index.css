@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+.top {
+  width: 100%;
+  height: auto;
+}
+
+.top .top_img img {
+  width: 100%;
+  height: auto;
+}
+
+.top .top_img .subtext {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  width: 880px;
+  height: auto;
+  z-index: 3;
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.top .top_img .subtext span {
+  font-size: 120px;
+}
+
+
+
+.newmenu .section_ttl h2 {
+  display: inline-block;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: bold;
+  color: #472E22;
+  margin: 5%;
+  text-align: center;
+}
+
+.newmenu .section_ttl small {
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+
+.newmenu_wrap {
+  width: 80%;
+  height: auto;
+  margin: 0 10% 10%;
+  text-align: center;
+  background-color: #EEEAE7;
+}
+
+.insta_block {
+  width: 25%;
+  display: inline-table;
+  margin: 5% 2%;
+}
+
+.insta_body img {
+  width: 250px;
+  height: 175px;
+}  
+
+.insta_body p {
+  margin: auto;
+  text-align: left;
+}
+
+.newmenu_txt {
+  padding: 5%;
+}
+
+.newmenu_txt h3 {
+  font-size: 20px;
+}
+
+.newmenu_txt a {
+  font-weight: bold;
+  color: #53A4FF;
+}
+
+.newmenu_txt h4 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #53A4FF;
+}
+
+
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 820px) {
+ 
+  .top .top_img .subtext {
+    top: 20%;
+    width: auto;
+    font-size: 40px;
+  }
+
+  .top .top_img .subtext span {
+    font-size: 60px;
+  }
+
+  .newmenu .section_ttl h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .newmenu_txt h3 {
+    font-size: 18px;
+  }
+  
+  .newmenu_txt h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .top .top_img .subtext {
+    top: 15%;
+    left: none;
+    width: none;
+    height: auto;
+    font-size: 25px;
+    margin-left: none;
+  }
+  
+  .top .top_img .subtext span {
+    font-size: 35px;
+  }
+
+  .newmenu .section_ttl h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 5% 2%;
+  }
+  
+  .newmenu .section_ttl small {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .newmenu_wrap {
+    width: 90%;
+    margin: 0 5% 10%;
+  }
+
+  .newmenu_txt h3 {
+    font-size: 18px;
+  }
+  
+  .newmenu_txt h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 481px) {}
